@@ -1,0 +1,35 @@
+html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+.first-container {
+  background-color: black;
+}
+.background-img {
+  opacity: 0.5;
+  width:100%;
+  position: relative;
+  z-index: 0;
+}
+.logo-img{
+  position: absolute;
+  z-index: 1;
+  right:43%;
+  width:15%;
+  top:13%;
+  opacity: 0.8;
+}
+.vac-img{
+  position: absolute;
+  z-index: 1;
+  right:25%;
+  width:50%;
+  top:45%;
+  bottom:30%;
+}
+.col-lg-6{
+  bottom:20%;
+  position: absolute;
+}
