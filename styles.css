@@ -43,8 +43,16 @@ html, body {
   right:40%;
   margin-left: 10px;
 }
-hr{
-  border-style: solid;
+
+.vintage-img{
+  float:right;
+  width: 250px;
+  margin: 0;
+}
+.r2-img{
+  float:left;
+  width: 150px;
+  margin: 0 20px 0 0;
 }
 .container{
   margin-top: 10px;
@@ -53,9 +61,13 @@ hr{
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-.vintage-img{
-  float:left;
-  width:100px;
+.container-left{
+  text-align: left;
+}
+.r3-img{
+  float:right;
+  width: 180px;
+  margin: 0;
 }
 #footer{
   position: relative;
@@ -66,8 +78,8 @@ hr{
 .row{
   position: relative;
   text-align: center;
-  left:35%;
-  width:25%;
+  left:38%;
+  width:20%;
 }
 .foot-text{
   position: relative;
